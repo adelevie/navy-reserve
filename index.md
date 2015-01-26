@@ -21,10 +21,10 @@ The prototype uses a "mock" API to simulate system interfaces, which may still n
 
 ### User Stories
 
-Done                    | Priority | Est. | Story
-:---------------------: | :------: | :--: | -----
-<input type="checkbox"> | 1        | 1    | As a reservist, I want to request orders so that I can support my command.
-<input type="checkbox"> | 2        | 1    | As a reservist, I want to see a summary (who, what, when, where) of the orders in order to make sure the orders are correct (validate).
-<input type="checkbox"> | 3        | 1    | As a reservist, if my orders are incorrect I want to notify my action officer [have a button, comment block].
-<input type="checkbox"> | 4        | 2    | As a reservist, if my orders are incorrect I want to modify my orders so that I can correct them [which has four fields].
-<input type="checkbox"> | 5        | 2    | As a DCIO, I want a "mock" NROWS API that is realistic and assumes fielded data.
+Done                            | Priority | Est. | Story
+:-----------------------------: | :------: | :--: | -----
+<input type="checkbox" checked> | 1        | 1    | As a reservist, I want to request orders so that I can support my command.
+<input type="checkbox" checked> | 2        | 1    | As a reservist, I want to see a summary (who, what, when, where) of the orders in order to make sure the orders are correct (validate).
+<input type="checkbox" checked> | 3        | 1    | As a reservist, if my orders are incorrect I want to notify my action officer [have a button, comment block].
+<input type="checkbox" checked> | 4        | 2    | As a reservist, if my orders are incorrect I want to modify my orders so that I can correct them [which has four fields].
+<input type="checkbox" checked> | 5        | 2    | As a DCIO, I want a "mock" NROWS API that is realistic and assumes fielded data.
