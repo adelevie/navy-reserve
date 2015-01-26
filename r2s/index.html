@@ -11,6 +11,7 @@ layout: null
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, maximum-scale=1.0">
     <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#084D8A">
     
     <title>U.S Navy Reserve – Ready to Serve</title>
     <meta name="description" content="U.S Navy Reserve – Ready to Serve">
@@ -21,11 +22,11 @@ layout: null
     <link rel="stylesheet" href="{{ site.baseurl }}/r2s/assets/css/sweet-alert.css">
     <link rel="stylesheet" href="{{ site.baseurl }}/r2s/assets/css/main.css">
     
-    <link rel="shortcut icon" type="image/ico" href="{{ site.baseurl }}/r2s/assets/img/favicon.ico">
-    <link rel="icon" type="image/png" href="{{ site.baseurl }}/r2s/assets/img/favicon.png">
-    <link rel="apple-touch-icon" href="{{ site.baseurl }}/r2s/assets/img/logo.png">
-    <link rel="apple-touch-startup-image" href="{{ site.baseurl }}/r2s/assets/img/logo.png" media="(orientation:portrait)">
-    <link rel="apple-touch-startup-image" href="{{ site.baseurl }}/r2s/assets/img/logo.png" media="(orientation:landscape)">
+    <!-- <link rel="shortcut icon" type="image/ico" href="{{ site.baseurl }}/r2s/assets/img/favicon.ico"> -->
+    <!-- <link rel="icon" type="image/png" href="{{ site.baseurl }}/r2s/assets/img/favicon.png"> -->
+    <link rel="apple-touch-icon" sizes="114x114" href="{{ site.baseurl }}/r2s/assets/img/apple-touch-icon.png">
+    <!-- <link rel="apple-touch-startup-image" href="{{ site.baseurl }}/r2s/assets/img/logo.png" media="(orientation:portrait)"> -->
+    <!-- <link rel="apple-touch-startup-image" href="{{ site.baseurl }}/r2s/assets/img/logo.png" media="(orientation:landscape)"> -->
     
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet' type='text/css'>
   </head>
@@ -36,7 +37,7 @@ layout: null
       <div class="content">
         
         <nav>
-          <a class="site-logo" href="{{ site.baseurl }}/r2s">
+          <a class="site-logo" href="javascript:App.showView('home')">
             <img class="site-logo-img" src="{{ site.baseurl }}/r2s/assets/img/logo.png" alt="logo">NAVY RESERVE<span class="project-name">R2S</span>
           </a>
           <ul class="site-menu">
@@ -195,7 +196,7 @@ layout: null
       // FastClick.attach(document.getElementById('site-header'));
       // FastClick.attach(document.getElementById('toc-mobile-expand'));
       // FastClick.attach(document.getElementById('login'));
-      FastClick.attach(document.body);
+      // FastClick.attach(document.body);
     </script>
   </body>
   
